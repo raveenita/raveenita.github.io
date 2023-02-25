@@ -1,83 +1,59 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
-import Image from 'next/image'
 
 const Home: NextPage = () => {
   return (
-    <div className="flex min-h-screen flex-col items-center justify-center py-2">
+    <div>
       <Head>
-        <title>Create Next App</title>
+        <title>Blog da Raveenita /></title>
         <link rel="icon" href="/favicon.ico" />
+        <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600;700&display=swap" rel="stylesheet"></link>
+
+        <header className="rav__header">
+          <div className="rav__content">
+            <a className="rav__logo" href="/">
+              <img width="75" src="assets/images/raveenita.png"/>
+            </a>
+            <h2 className="header__name" itemProp="name"> Blog da Raveenita <strong>/></strong> </h2>
+          </div>
+        </header>
       </Head>
 
-      <main className="flex w-full flex-1 flex-col items-center justify-center px-20 text-center">
-        <h1 className="text-6xl font-bold">
-          Welcome to{' '}
-          <a className="text-blue-600" href="https://nextjs.org">
-            Next.js!
-          </a>
-        </h1>
+      <main>
+        <section className="rav__posts">
+          <div className="rav__content">
 
-        <p className="mt-3 text-2xl">
-          Get started by editing{' '}
-          <code className="rounded-md bg-gray-100 p-3 font-mono text-lg">
-            pages/index.tsx
-          </code>
-        </p>
+            <header className="posts__header">
+              <h3 className='header__title'>-> Últimos posts</h3>
+            </header>
 
-        <div className="mt-6 flex max-w-4xl flex-wrap items-center justify-around sm:w-full">
-          <a
-            href="https://nextjs.org/docs"
-            className="mt-6 w-96 rounded-xl border p-6 text-left hover:text-blue-600 focus:text-blue-600"
-          >
-            <h3 className="text-2xl font-bold">Documentation &rarr;</h3>
-            <p className="mt-4 text-xl">
-              Find in-depth information about Next.js features and its API.
-            </p>
-          </a>
+            <article className="rav__post">
+                <h2 className="post__title">>_ 🚀 How travel to the moon without financing</h2>
+                <time className="post__publish">-> Sun, Aug 19, 2018</time>
+            </article>
 
-          <a
-            href="https://nextjs.org/learn"
-            className="mt-6 w-96 rounded-xl border p-6 text-left hover:text-blue-600 focus:text-blue-600"
-          >
-            <h3 className="text-2xl font-bold">Learn &rarr;</h3>
-            <p className="mt-4 text-xl">
-              Learn about Next.js in an interactive course with quizzes!
-            </p>
-          </a>
+            <article className="rav__post">
+                <h2 className="post__title">>_ Buddhism for tired developers</h2>
+                <time className="post__publish">-> Sun, Aug 19, 2018</time>
+            </article>
 
-          <a
-            href="https://github.com/vercel/next.js/tree/canary/examples"
-            className="mt-6 w-96 rounded-xl border p-6 text-left hover:text-blue-600 focus:text-blue-600"
-          >
-            <h3 className="text-2xl font-bold">Examples &rarr;</h3>
-            <p className="mt-4 text-xl">
-              Discover and deploy boilerplate example Next.js projects.
-            </p>
-          </a>
-
-          <a
-            href="https://vercel.com/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className="mt-6 w-96 rounded-xl border p-6 text-left hover:text-blue-600 focus:text-blue-600"
-          >
-            <h3 className="text-2xl font-bold">Deploy &rarr;</h3>
-            <p className="mt-4 text-xl">
-              Instantly deploy your Next.js site to a public URL with Vercel.
-            </p>
-          </a>
-        </div>
+            <article className="rav__post">
+                <h2 className="post__title">>_ I'll be poor 4 ever?</h2>
+                <time className="post__publish">-> Sun, Aug 19, 2018</time>
+                <div className="rav__tags">
+                  <span className="rav__tag">Finanças</span>
+                </div>
+            </article>
+          </div>
+        </section>
       </main>
 
-      <footer className="flex h-24 w-full items-center justify-center border-t">
-        <a
-          className="flex items-center justify-center gap-2"
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
-        </a>
+      <footer className="rav__footer">
+         <div className="rav__content">
+            <p>
+              Feito com ❤️ por <a href="https://github.com/raveenita"  target="_blank"><strong>@raveenita</strong> 🏴‍☠️</a>
+            </p>
+         </div>
       </footer>
     </div>
   )
