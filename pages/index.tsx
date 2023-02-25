@@ -5,7 +5,7 @@ const Home: NextPage = () => {
   return (
     <div>
       <Head>
-        <title>Blog da Raveenita /></title>
+        <title>&#60; Blog da Raveenita -&#62;</title>
         <link rel="icon" href="/favicon.ico" />
         <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600;700&display=swap" rel="stylesheet"></link>
 
@@ -14,7 +14,7 @@ const Home: NextPage = () => {
             <a className="rav__logo" href="/">
               <img width="75" src="assets/images/raveenita.png"/>
             </a>
-            <h2 className="header__name" itemProp="name"> Blog da Raveenita <strong>/></strong> </h2>
+            <h2 className="header__name" itemProp="name"> Blog da Raveenita <strong>&#62;</strong> </h2>
           </div>
         </header>
       </Head>
@@ -24,22 +24,22 @@ const Home: NextPage = () => {
           <div className="rav__content">
 
             <header className="posts__header">
-              <h3 className='header__title'>-> Últimos posts</h3>
+              <h3 className='header__title'>-&#62; Últimos posts</h3>
             </header>
 
             <article className="rav__post">
-                <h2 className="post__title">>_ 🚀 How travel to the moon without financing</h2>
-                <time className="post__publish">-> Sun, Aug 19, 2018</time>
+                <h2 className="post__title">-&#62;_ 🚀 How travel to the moon without financing</h2>
+                <time className="post__publish">-&#62; Sun, Aug 19, 2018</time>
             </article>
 
             <article className="rav__post">
-                <h2 className="post__title">>_ Buddhism for tired developers</h2>
-                <time className="post__publish">-> Sun, Aug 19, 2018</time>
+                <h2 className="post__title">&#62;_ Buddhism for tired developers</h2>
+                <time className="post__publish">-&#62; Sun, Aug 19, 2018</time>
             </article>
 
             <article className="rav__post">
-                <h2 className="post__title">>_ I'll be poor 4 ever?</h2>
-                <time className="post__publish">-> Sun, Aug 19, 2018</time>
+                <h2 className="post__title">&#62;_ I'll be poor 4 ever?</h2>
+                <time className="post__publish">-&#62; Sun, Aug 19, 2018</time>
                 <div className="rav__tags">
                   <span className="rav__tag">Finanças</span>
                 </div>
