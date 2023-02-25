@@ -3,3 +3,9 @@ description: 'Publish the blog on Github Pages'
 inputs:
   GITHUB_TOKEN:
     description: 'GITHUB TOKEN SECRET'
+    required: true 
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+  args:
+    - ${{ inputs.GITHUB_TOKEN }}
