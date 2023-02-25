@@ -2,6 +2,6 @@ name: 'Deployment 🚀'
 description: 'Deploying my personal blog with nextjs and github pages'
 author: 'raveenita'
 inputs:
-  secret:
+  GITHUB_TOKEN:
     required: true
     description: 'The github token secret'
