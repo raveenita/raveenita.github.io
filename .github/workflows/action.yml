@@ -1,3 +1,4 @@
 name: 'Deployment 🚀'
-  with:
-    GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+inputs:
+  GITHUB_TOKEN: 'The github token secret',
+  required: true
