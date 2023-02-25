@@ -1,0 +1,5 @@
+name: 'Deployment 🚀'
+description: 'Publish the blog on Github Pages'
+inputs:
+  GITHUB_TOKEN:
+    description: 'GITHUB TOKEN SECRET'
