@@ -1,5 +1,5 @@
 name: 'Deployment 🚀'
-description: 'Deploying my personal blog with nextjs and github pages 🙏'
+description: 'Deploying my personal blog with nextjs and github pages 🙏🙏'
 author: 'raveenita'
 inputs:
   GITHUB_TOKEN:
