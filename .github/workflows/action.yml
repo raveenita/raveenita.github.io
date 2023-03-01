@@ -5,3 +5,5 @@ inputs:
   GITHUB_TOKEN:
     required: true
     description: 'The github token secret'
+
+ 
